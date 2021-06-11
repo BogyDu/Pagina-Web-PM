@@ -11,11 +11,6 @@
   margin-right: 20px;
 }
 
-.block-intro img {
-  display: block;
-  margin: auto;
-}
-
 @media (max-width:767px) {
   .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
     display: none;
