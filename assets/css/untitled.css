@@ -2,15 +2,6 @@
   background: linear-gradient(120deg,#101010,#006db4);
   color: #fff;
 }
-.zoom {
-  transition: transform .2s;
-}
-
-.zoom:hover {
-  transform: scale(1.2);
-}
-
-
 
 .portfolio-block.website.gradient {
   background: linear-gradient(120deg,#0e1e28,#035a93);
