@@ -1,0 +1,10 @@
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.portfolio-navbar.gradient {
+  background: linear-gradient(120deg,#101010,#006db4);
+  color: #fff;
+}
+
+.portfolio-block.website.gradient {
+  background: linear-gradient(120deg,#0e1e28,#035a93);
+  color: #fff;
+}
+
