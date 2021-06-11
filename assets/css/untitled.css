@@ -8,3 +8,17 @@
   color: #fff;
 }
 
+.block-intro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.page-footer .social-icons a {
+  color: rgb(71,78,103);
+}
+
