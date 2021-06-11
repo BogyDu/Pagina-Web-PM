@@ -5,6 +5,17 @@
   background-position: center;
 }
 
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+
+
+
 .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
   width: 50px;
   margin-left: 20px;
