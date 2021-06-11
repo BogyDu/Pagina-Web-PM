@@ -1,0 +1,57 @@
+.simple-slider .swiper-slide {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+  }
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.portfolio-navbar.gradient {
+  background: linear-gradient(120deg,#101010,#006db4);
+  color: #fff;
+}
+
+.portfolio-block.website.gradient {
+  background: linear-gradient(120deg,#0e1e28,#035a93);
+  color: #fff;
+}
+
+.block-intro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.page-footer .social-icons a {
+  color: rgb(71,78,103);
+}
+
